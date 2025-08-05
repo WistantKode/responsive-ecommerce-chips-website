@@ -15,8 +15,7 @@ Un site web de type landing page, moderne et entièrement responsive, pour un co
 
 ## 📸 Aperçu
 
-![Aperçu du site ](./assets/images/preview.png) 
-*(N.B. : Vous devrez ajouter une capture d'écran nommée [`preview.png`](./assets/images/preview.png) dans le dossier `/assets/images/` pour qu'elle s'affiche ici.)*
+![Aperçu du site ](preview.png)
 
 ---
 
