@@ -31,12 +31,12 @@
         <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 
 
-        <!-- CSS libraries -->
-        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" /> 
-
 
         <!-- css link -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" /> 
+        <!-- <link rel="stylesheet" href="/assets/css/style copy.css"> -->
         <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="/assets/css/tranding.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     </head>
 
@@ -72,10 +72,35 @@
             </nav>
         </header>
 
-        <section class="hero" id="hero">
+        <section class="home section" id="home">
+            <div class="home-container container grid">
+                <div class="home-data">
+                    <h1 class="home-title">
+                     Crispy & <br>
+                     Tasty <span> Fried </span><b>
+                     <Span>Chicken</Span>
+                    </h1>
+                    <p class="home-description">
+                     Lorem ipsum dolor sit amet consectetur.
+                     Lorem ipsum dolor sit amet consectetur.
+                     Lorem ipsum dolor sit amet. Lorem, ipsum dolor.
+                    </p>
+
+                    <a href="#about" class="button">
+                     About Chick Food
+                    </a>
+
+                </div>
+                <div class="home-images">
+                    <img src="/assets/images/product-chips-2.png" alt="image of Chicken" class="home-img">
+
+                </div>
+            </div>
+        </section>
+        
+        <!-- <section class="hero" id="hero">
             <img class="hero-bg" src="/assets/images/" alt="">
 
-            <!-- Hero content -->
             <div class="hero-content container">
                 <h2>We have the <span>Equipement</span> for your trip like this</h2>
                 <div class="hero-btn">
@@ -85,13 +110,13 @@
                     </a>
                 </div> 
 
-                <!-- hero img -->
                 <div class="hero-img">
                     <img src="/assets/images/" alt="hero image">
                 </div>   
             </div>
 
-            <!-- 
+
+
             <div class="category container" id="category">
                 <a href="#products" class="" id="products">
                     <i class="ri-scroll-to-bottom-line scroll-bottom"></i>
@@ -176,11 +201,90 @@
                     </div>
         
                 </div>
-            </div>  -->
-        </section>
+            </div>
+        </section> -->
+
+        
+
+        <section class="about section container" id="about">
+            <div class="about__container grid">
+                <img src="assets/images/product-chips-5.png" alt="" class="about__img">
+
+                <div class="about__data">
+                    <h2 class="section__title about__title">
+                        Who we really are & <br> why choose us
+                    </h2>
+
+                    <p class="about__description">
+                        We have over 4000+ unbiased reviews and our customers 
+                        trust our plant process and delivery service every time
+                    </p>
+
+                    <div class="about__details">
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>
+                            We always deliver on time.
+                        </p>
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>
+                            We give you guides to protect and care for your plants.
+                        </p>
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>
+                            We always come over for a check-up after sale.
+                        </p>
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>
+                            100% money back guaranteed.
+                        </p>
+                    </div>
+
+                    <a href="#" class="button--link button--flex">
+                        Shop Now <i class="ri-arrow-right-down-line button__icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>        
 
 
-            <section class="products container">
+
+        <!-- <section class="steps section container">
+            <div class="steps__bg">
+                <h2 class="section__title-center steps__title">
+                    Steps to start your <br> plants off right
+                </h2>
+
+                <div class="steps__container grid">
+                    <div class="steps__card">
+                        <div class="steps__card-number">01</div>
+                        <h3 class="steps__card-title">Choose Plant</h3>
+                        <p class="steps__card-description">
+                            We have several varieties plants you can choose from.
+                        </p>
+                    </div>
+
+                    <div class="steps__card">
+                        <div class="steps__card-number">02</div>
+                        <h3 class="steps__card-title">Place an order</h3>
+                        <p class="steps__card-description">
+                            Once your order is set, we move to the next step which is the shipping.
+                        </p>
+                    </div>
+
+                    <div class="steps__card">
+                        <div class="steps__card-number">03</div>
+                        <h3 class="steps__card-title">Get plants delivered</h3>
+                        <p class="steps__card-description">
+                            Our delivery process is easy, you receive the plant direct to your door.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>         -->
+
+
+
+        <section class="products container">
                 <h2>Our <span>Coffees</span></h2>
                 <p class="product-desc">
                     <br> voluptatem excepturi ab ducimus quidem molestias quos dolore nam itaque 
@@ -413,97 +517,13 @@
 
                 </div>
 
-            </section>
+        </section>
 
-            <section>
+        <section>
 
-            </section>
-
-            <section class="selling container" id="selling">
-                <div class="selling-heading">
-                    <h2>Best selling</h2>
-                    <a href="#" class="btn">
-                       <span>View products</span>
-                       <img src="/assets/images/arrow_right.png" alt="">
-                    </a>
-                </div>
-
-                <div class="swiper selling-slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="product-box">
-                                <span>30%</span>
-                                <img src="/assets/images/p2.png" alt="">
-                                <h2>Breat Coffee sweden</h2>
-                                <div class="ratting">
-                                    <i class="ri-star-fill"></i>
-                                    <i class="ri-star-fill"></i>
-                                    <i class="ri-star-fill"></i>
-                                    <i class="ri-star-fill"></i>
-                                    <i class="ri-star-fill"></i>
-                                    <p>4.5</p>   
-                                </div>
-                                <div class="p-info product-pric-info">
-                                    <div class="price">
-                                        <p>$4000</p>
-                                        <h3>$3000</h3>
-                                    </div>
-                                    <a href="#">
-                                        <i class='bx bxs-cart cart'></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div> 
-                        
-                        <div class="swiper-slide">
-                            <div class="product-box">
-                                <span>30%</span>
-                                <img src="/assets/images/p2.png" alt="">
-                                <h2>Breat Coffee sweden</h2>
-                                <div class="ratting">
-                                    <i class="ri-star-fill"></i>
-                                    <i class="ri-star-fill"></i>
-                                    <i class="ri-star-fill"></i>
-                                    <i class="ri-star-fill"></i>
-                                    <i class="ri-star-fill"></i>
-                                    <p>4.5</p>   
-                                </div>
-                                <div class="p-info product-pric-info">
-                                    <div class="price">
-                                        <p>$4000</p>
-                                        <h3>$3000</h3>
-                                    </div>
-                                    <a href="#">
-                                        <i class='bx bxs-cart cart'></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        
-                        
-                        
-                        
-                        
-
-                        
-
-                    </div>
-                    <div class="slides-control">
-                        <div class="swiper-pagination"></div>
-                        <div class="swiper-btn">
-                            
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div>
-                            
-                        </div>
-                    </div>
-                    
-                    
-                </div>
-            </section>
- 
-            <section class="brands" id="brands">
+        </section>
+         
+        <section class="brands" id="brands">
                 <h2 class="heading">Our <span>Partners</span></h2>
                 <div class="brand-container">
                     <div class="brand-content container">
@@ -545,8 +565,8 @@
                         </div>
                     </div>
                 </div>
-            </section>
-            <!--
+        </section>
+            
             <section class="tips" id="tips">
                 <h2 class="heading">Camping tips</h2>
                 <div class="tips-content container">
@@ -671,7 +691,7 @@
                 <div class="tips-content container">
                     <div class="blogs">
                         <div class="blog-box">
-                            <img src="/assets/img/rev1.jpg" alt="">
+                            <img src="/assets/images/product-chips-5.png" alt="">
                             <div class="blog-info">
                                 <span>Category</span>
                                 <h3>
@@ -685,7 +705,7 @@
                             </div>
                         </div>
                         <div class="blog-box">
-                            <img src="/assets/img/rev2.jpg" alt="">
+                            <img src="/assets/images/product-chips-3.png" alt="">
                             <div class="blog-info">
                                 <span>Category</span>
                                 <h3>
@@ -702,7 +722,7 @@
 
                      
                     <div class="single-post">
-                        <img src="/assets/img/about.jpg" alt="">
+                        <img src="/assets/images/product-chips-3.png" alt="">
                         <div class="single-post-text">
                             <div class="post-data">
                                 <h2>Your Essential Coffee Brewing Checklist</h2>
@@ -735,6 +755,7 @@
                     </div>
                 </div>
             </section>
+
 
             <div class="section footer" id="footer">
                 <div class="footer-container container">

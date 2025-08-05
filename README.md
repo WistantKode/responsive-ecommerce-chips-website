@@ -55,7 +55,7 @@ Pour obtenir une copie locale du projet et la faire fonctionner, suivez ces éta
 
 2.  **Naviguez vers le dossier du projet**
     ```sh
-    cd Responsivewebsite-chickfood
+    cd responsive-ecommerce-chips-website
     ```
 
 3.  **Ouvrez le fichier `index.html`**
