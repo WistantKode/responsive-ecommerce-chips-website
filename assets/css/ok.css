@@ -1,0 +1,141 @@
+.nav {
+  display: flex;
+  height: 50%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--text-neutral-2);
+  border-radius: 5rem;
+  padding: 10px 12px;
+  box-shadow: 0 6px 64px 0 hsla(221, 47%, 31%, 0.06%);
+} 
+.logo img {
+  width: 30px;
+}
+.navbar {
+  display: flex;
+  column-gap: 1.5rem;
+  align-items: center;
+}
+.nav-link {
+  font-size: 1rem;
+  color: var(--text-color);
+  font-weight: 500;
+  transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.nav-link:hover {
+  color: var(--main-color);
+  transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.nav-right {
+  column-gap: 10px;
+  align-items: center;
+  display: flex;
+  height: 1rem;
+}
+.nav-right i {
+  color: var(--text-color);
+  font-size: 18px;
+  background-color: var(--text-neutral1-3);
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+.login-btn {
+  font-size: 15px;
+  background-color: var(--main-color);
+  color: var(--bg-color);
+  padding: 0.5rem 14px;
+  border-radius: 5rem;
+}
+.login-btn:hover {
+  transition: background 0.4s ease-in-out;
+  background-color: var(--text-color);  
+}
+
+/*  menu icon */
+.menu-icon {
+  z-index: 200;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  row-gap: 5px;
+  padding: 10px;
+  cursor: pointer;
+  background: var(--main-color);
+  flex-direction: column;
+  transition: 0.3s;
+  display: none;
+}
+.menu-icon div {
+  transition: 0.3s;
+  height: 2px;
+  display: block;  
+  background-color: var(--bg-color);
+  width: 20px;
+}
+.move .line1 {
+  transform: rotate(-45deg) translate(-5px, 5px);
+}
+.move .line2 {
+  opacity: 0;
+}
+.move .line3 {
+  transform: rotate(45deg) translate(-5px, -5px);
+}
+
+/*  HERO SECTION  */
+
+.hero {
+  width: 100;
+  position: relative;
+}
+.hero-bg {
+  position: absolute;
+  top: 0;;
+  left: 0;;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.hero-content {
+  margin-top: 4rem !important;
+  text-align: center;
+}
+.hero-content h2 {
+  font-size: 1.6rem;
+}
+.hero-content h2 span {
+  color: var(--main-color);
+}
+.hero-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4px;
+  background-color: var(--text-color);
+  color: var(--bg-color);
+  padding: 8px 14px;
+  border-radius: 0.9rem;
+}
+.btn span {
+  font-size: 1rem;
+}
+.btn img {
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  margin-left: 1px;
+}
+.btn:hover {
+  background-color: var(--main-color);
+  transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
